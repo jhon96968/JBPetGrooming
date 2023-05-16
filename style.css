@@ -1,0 +1,103 @@
+body{
+    font-family: sans-serif;
+    margin: 1%;
+    background-color: whitesmoke;
+}
+header{
+    margin: 1px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+nav h1:hover {
+    color: aqua;   
+}
+div img:hover{
+    opacity: 1;  
+}
+a.logo {
+    text-decoration: none;
+    color: black;
+}
+.container-fluid {
+    margin-left: 80%;
+}
+.Clientes {
+    margin-left: 3%;
+}
+.column {
+    float: left;
+}
+.column.side {
+    width: 15%;
+}
+
+.column.middle {
+    width: 70%;
+}
+@media screen and (max-width: 600px) {
+    .column.side, .column.middle, .column.side1 {
+      width: 100%;
+    }
+  }
+.text_grooming{
+    color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: right;
+}
+.nav-link :hover {
+    color: aqua;
+}
+.narvar {
+    min-height: 50px;
+    display: flex;
+    background-color: rgb(255, 253, 129);
+    justify-content: space-between;
+    align-items: center;
+    border-style:double;
+    border-color: black;
+    border-radius: 15px;
+}
+.logo {
+    display: flex;
+    padding: 15px;
+}
+.logo img {
+    height: 70px;
+}
+.container-fluid {
+    align-items: center;
+}
+li {
+    float: left;
+    padding: 10px;
+    color: black;
+}
+
+
+.narvar2 {
+    display: block;
+    margin: 1px 8px;
+    list-style-type: none;
+}
+p {
+    text-align: justify;
+    margin: 30px 50px;
+    font-size: 2em;
+    overflow: hidden; 
+}
+
+.imagenes_perros {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 40vh;
+    align-items: center;
+}
+.perros img{
+    width: 200px;
+    height: 200px;
+    margin: 1em ;
+    opacity: 0.5;
+}
