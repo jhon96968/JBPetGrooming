@@ -7,7 +7,7 @@ header{
     margin: 1px;
 }
 a{
-    color: black;
+    color: red;
     text-decoration: none;
 }
 nav h1:hover {
@@ -86,7 +86,6 @@ p {
     margin: 30px 50px;
     font-size: 2em;
     overflow: hidden; 
-    color: blue;
 }
 
 .imagenes_perros {
