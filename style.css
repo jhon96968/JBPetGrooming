@@ -86,6 +86,7 @@ p {
     margin: 30px 50px;
     font-size: 2em;
     overflow: hidden; 
+    color: blue;
 }
 
 .imagenes_perros {
