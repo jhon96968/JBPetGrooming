@@ -52,7 +52,7 @@ a.logo {
 .narvar {
     min-height: 50px;
     display: flex;
-    background-color: rgb(255, 253, 129);
+    background-color: rgb(240, 239, 185);
     justify-content: space-between;
     align-items: center;
     border-style:double;
