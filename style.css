@@ -7,7 +7,7 @@ header{
     margin: 1px;
 }
 a{
-    color: red;
+    color: black;
     text-decoration: none;
 }
 nav h1:hover {
@@ -18,7 +18,7 @@ div img:hover{
 }
 a.logo {
     text-decoration: none;
-    color: red;
+    color: black;
 }
 .container-fluid {
     margin-left: 80%;
