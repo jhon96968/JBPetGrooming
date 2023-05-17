@@ -1,7 +1,7 @@
 body{
     font-family: sans-serif;
     margin: 1%;
-    background-color: whitesmoke;
+    background-color: rgb(236, 236, 236);
 }
 header{
     margin: 1px;
@@ -11,7 +11,7 @@ a{
     text-decoration: none;
 }
 nav h1:hover {
-    color: aqua;
+    color: red;
 }
 div img:hover{
     opacity: 1;  
@@ -47,7 +47,7 @@ a.logo {
     text-align: right;
 }
 .nav-link :hover {
-    color: aqua;
+    color: red;
 }
 .narvar {
     min-height: 50px;
