@@ -9,11 +9,11 @@ header{
     margin: 1px;
 }
 a{
-    color: red;
+    color: black;
     text-decoration: none;
 }
 nav h1:hover {
-    color: red;
+    color: aqua;
 }
 div img:hover{
     opacity: 1;  
@@ -24,7 +24,7 @@ a.logo {
 }
 .bardes {
     list-style-type: none;
-    color: red;
+    color: aqua;
 }
 .container-fluid {
     margin-left: 80%;
@@ -53,7 +53,7 @@ a.logo {
     text-align: right;
 }
 .nav-link :hover {
-    color: red;
+    color: aqua;
 }
 .narvar {
     min-height: 50px;
@@ -94,10 +94,7 @@ p {
     margin: 30px 50px;
     font-size: 2em;
     overflow: hidden; 
-<<<<<<< HEAD
     color: black;
-=======
->>>>>>> 9ea5b2e3f509b3206807e43927a1dc7873d1ecc7
 }
 
 
