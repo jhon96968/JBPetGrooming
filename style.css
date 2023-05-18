@@ -9,11 +9,11 @@ header{
     margin: 1px;
 }
 a{
-    color: black;
+    color: red;
     text-decoration: none;
 }
 nav h1:hover {
-    color: aqua;
+    color: red;
 }
 div img:hover{
     opacity: 1;  
@@ -53,7 +53,7 @@ a.logo {
     text-align: right;
 }
 .nav-link :hover {
-    color: aqua;
+    color: red;
 }
 .narvar {
     min-height: 50px;
@@ -94,7 +94,10 @@ p {
     margin: 30px 50px;
     font-size: 2em;
     overflow: hidden; 
+<<<<<<< HEAD
     color: black;
+=======
+>>>>>>> 9ea5b2e3f509b3206807e43927a1dc7873d1ecc7
 }
 
 
