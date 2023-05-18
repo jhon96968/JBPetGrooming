@@ -1,7 +1,9 @@
 body{
     font-family: sans-serif;
     margin: 1%;
-    background-color: whitesmoke;
+    background-image: url(Sprinkle.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 header{
     margin: 1px;
@@ -19,6 +21,10 @@ div img:hover{
 a.logo {
     text-decoration: none;
     color: black;
+}
+.bardes {
+    list-style-type: none;
+    color: red;
 }
 .container-fluid {
     margin-left: 80%;
@@ -58,6 +64,8 @@ a.logo {
     border-style:double;
     border-color: black;
     border-radius: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .logo {
     display: flex;
@@ -72,22 +80,23 @@ a.logo {
 li {
     float: left;
     padding: 10px;
-    color: black;
+    
 }
-
 
 .narvar2 {
     display: block;
     margin: 1px 8px;
     list-style-type: none;
+    color: black;
 }
 p {
     text-align: justify;
     margin: 30px 50px;
     font-size: 2em;
     overflow: hidden; 
-    color: blue;
+    color: black;
 }
+
 
 .imagenes_perros {
     display: flex;
@@ -101,4 +110,13 @@ p {
     height: 200px;
     margin: 1em ;
     opacity: 0.5;
+}
+footer {
+    background-color: #333;
+}
+footer p {
+    color: white;
+    text-align: center;
+    padding: 3%;
+    margin-top: 5%;
 }
